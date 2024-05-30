@@ -75,7 +75,7 @@
     align-items: left;
     margin-top: 6%; 
     animation-name: parriba;
-    animation-duration: 3s; 
+    animation-duration: 10s; 
     animation-fill-mode: forwards;
 }
 .avatar1punto5{
@@ -155,6 +155,9 @@
     /*margin-top: 20px;*/  /* Ajusta el margen superior según sea necesario */
     width: 25%;  /* O ajusta el ancho según sea necesario */
     margin-top: 3%;
+}
+.audio{
+    visibility: hidden;
 }
 @keyframes aparecer {
     0% {
