@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.bodybody{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1706618093/More_Smarter_Title_Card_HD_ddsohn.png");
+    /*display: flex;*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+.body{
+    /*background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1706274676/panaderia_u6tewa.jpg");*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: white;
+
+    position: relative;
+}
+.backgroundimage1 {
+    width: 100%; /* Ajustar el ancho de la imagen al 100% del contenedor */
+    height: 90vh; /* Mantener la proporción original de la imagen */
+    /* Otras propiedades de estilo que desees aplicar directamente a la imagen */
+
+    z-index: -1;
+    position: absolute;
+}
+.body2{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1704636063/1704636052780.png");
+    /*display: flex;*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: white;
+}
+.button{
+    background-color: aquamarine;
+    border: solid 5px black;
+    background-color: aliceblue;
+    align-items: center !important;
+    cursor: pointer;
+}
+.avatar{ 
+    /*width: 40%;
+    height: 60%;*/
+    width: 400px;
+    height: 400px;
+    align-items: left;
+    margin-top: 4%;
+}
+.explosion{
+    width: 400px;
+    height: 400px;
+    align-items: left;
+    margin-top: 4%;
+    margin-left: 12%;
+}
+.avatarteletransportao{
+    width: 400px;
+    height: 400px;
+    align-items: left;
+    margin-top: 6%; 
+    animation-name: aparecer;
+    animation-duration: 10s; 
+    animation-fill-mode: forwards;
+}
+.demonioprron{
+    width: 400px;
+    height: 400px;
+    align-items: left;
+    margin-top: 6%; 
+    animation-name: parriba;
+    animation-duration: 3s; 
+    animation-fill-mode: forwards;
+}
+.avatar1punto5{
+    width: 400px;
+    height: 400px;
+    align-items: left;
+    margin-top: 7%;
+
+    /*position: absolute;
+    z-index: 1;*/
+}
+.panadero{
+    width: 400px;
+    height: 400px;
+    align-items: left;
+    transform: scaleX(-1);
+    margin-bottom: 1%;
+}
+/*.escena1{
+    display:none;
+}*/
+.escena2{
+    display:none;
+}
+.escena3{
+    display:none;
+}
+.escena4{
+    display:none;
+}
+.escena5{
+    display:none;
+}
+.escena6{
+    display:none;
+}
+.escena7{
+    display:none;
+}
+.escena8{
+    display:none;
+}
+.escena9{
+    display:none;
+}
+.escena10{
+    display:none;
+}
+.escena11{
+    display:none;
+}
+.escena12{
+    display:none;
+}
+.escena13{
+    display:none;
+}
+.escena14{
+    display:none;
+}
+.escena15{
+    display:none;
+}
+.escena16{
+    display:none;
+}
+.escena17{
+    display:none;
+}
+.escena18{
+    display:none;
+}
+.escena19{
+    display:none;
+}
+.audio {
+    /*margin-top: 20px;*/  /* Ajusta el margen superior según sea necesario */
+    width: 25%;  /* O ajusta el ancho según sea necesario */
+    margin-top: 3%;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0; /* Opacidad al principio de la animación */
+      }
+      100% {
+        opacity: 1; /* Opacidad al final de la animación */
+      }
+  }
+  @keyframes parriba {
+    0% {
+       /* opacity: 0; */
+        transform: translateY(0);
+      }
+      100% {
+        /*opacity: 1; */
+        transform: translateY(-600px);
+      }
+  }
